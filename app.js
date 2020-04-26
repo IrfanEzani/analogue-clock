@@ -6,7 +6,7 @@ const mn = document.querySelector('#mn');
 const sc = document.querySelector('#sc');
 
 
-//IIFE 
+//IIFE
 setInterval(()=> {
   let day = new Date();
   let hh  = day.getHours() * 30;
